@@ -8,12 +8,13 @@ import SignUp from "./Screen/Signup";
 import Welcome from "./Screen/Welcome";
 import Home from "./Screen/Home";
 import Search from "./Screen/Search";
+import SearchResult from "./Screen/SearchResult";
 
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Search">
+      <Stack.Navigator initialRouteName="SearchResult">
         <Stack.Screen
           options={{ headerShown: false }}
           name="Signin"
@@ -38,6 +39,11 @@ export default function App() {
           options={{ headerShown: false }}
           name="Search"
           component={Search}
+        />
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="SearchResult"
+          component={SearchResult}
         />
       </Stack.Navigator>
     </NavigationContainer>

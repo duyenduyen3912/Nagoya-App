@@ -13,6 +13,7 @@
     "@expo/metro-runtime": "~3.1.1",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
+    "antd-mobile": "^5.34.0",
     "expo": "~50.0.4",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
